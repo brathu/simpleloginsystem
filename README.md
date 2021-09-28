@@ -1,6 +1,6 @@
 # SimpleLoginSystem
 
-A simple login system based on [pastebin.com](https://pastebin.com/) pastes
+A simple login system based on [pastebin.com](https://pastebin.com/) pastes as "database"
 
 ## Info
 You need a [pastebin](https://pastebin.com/) account to create private pastes and to edit them (add or remove users). Its not recommended to use this for a commercially project!
