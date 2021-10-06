@@ -6,21 +6,22 @@ A simple login system based on [pastebin.com](https://pastebin.com/) pastes as "
 You need a [pastebin](https://pastebin.com/) account to create private pastes and to edit them (add or remove users). Its not recommended to use this for a commercially project!
 
 ## Usage
-1. Import login and set_config from loginsystem and use the functions, here is an example:
+1. Import Loginsys, create an instance and set the config file, Then just use it like here:
 ```python
-from loginsystem import login, set_config
+from loginsystem import Loginsys
 
-set_config('config/config.json') #set the config file
+ls = Loginsys('config/config.json') #create an instance and set the config file
+
 
 def main():
     print('start main func')
 
 
 if __name__ == "__main__":
-    username = input('Username: ') #get username via input
-    password = input('Password: ') #get password via input
-    if(login(username, password) == True): #check them if true
-        main() #run the main fucntion
+    username = input('Username: ')
+    password = input('Password: ')
+    if(ls.login(username, password) == True):
+        main()
     quit()
 ```
 2. change the config.json to the raw of youre [pastebin](https://pastebin.com/) paste:
