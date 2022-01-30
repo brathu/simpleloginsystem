@@ -22,7 +22,6 @@ if __name__ == "__main__":
     password = input('Password: ')
     if(ls.login(username, password)):
         main()
-    quit()
 ```
 2. change the config.json to the raw of youre [pastebin](https://pastebin.com/) paste:
 ```json
