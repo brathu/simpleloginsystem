@@ -20,7 +20,7 @@ def main():
 if __name__ == "__main__":
     username = input('Username: ')
     password = input('Password: ')
-    if(ls.login(username, password) == True):
+    if(ls.login(username, password)):
         main()
     quit()
 ```
