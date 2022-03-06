@@ -23,7 +23,7 @@ if __name__ == "__main__":
     if(ls.login(username, password)):
         main()
 ```
-2. change the config.json to the raw of youre [pastebin](https://pastebin.com/) paste:
+2. change url in config.json to the raw of youre [pastebin](https://pastebin.com/) paste:
 ```json
 {
     "url": "https://pastebin.com/raw/EG86YeBX"
